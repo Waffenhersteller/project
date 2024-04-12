@@ -1,0 +1,31 @@
+historyOfliceo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin:0px 0px 90px 0px;
+}
+historyOfliceo p{
+    color: var(--Neutral-900,#1E1E1E);
+     font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 848px;
+    margin: 5px;
+}
+
+historyOfliceo img{
+    margin: 30px 0px ;
+}
+
+@media (max-width:430px) {
+    historyOfliceo p{
+        
+        max-width: 328px;
+        
+    }
+    historyOfliceo img{
+        width: 328px;
+    }
+}

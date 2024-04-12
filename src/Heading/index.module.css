@@ -1,0 +1,67 @@
+.heading{
+   
+    max-height: 184px;
+    
+    width: 100%;
+    background: var(--Primary-100, #ECF4F5);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+.conteiner{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading h1{
+    color: var(--Primary-600, #165C64);
+
+font-family: 'Lato', sans-serif;
+font-size: 4rem;
+font-style: normal;
+font-weight: 800;
+line-height: 5rem;   
+}
+
+
+@media (max-width: 430px) {
+    .heading {
+       
+      flex-direction: column; 
+      position: relative;
+      max-width: 430px;
+      height: 184px;
+    }
+    .conteiner{
+        max-width: 430px;
+        height: 184px;
+        align-items: center;
+    }
+  
+    .heading h1 {
+      font-size: 2.5rem; 
+      line-height: 3.5rem;
+      margin: 0px;
+      width: 100%;
+      z-index: 999;
+      position: relative;
+      
+      white-space: normal;
+    }
+  
+    .heading img {
+      /* width: 50%;  */
+      width: 245px;
+     height: 184px;
+     
+     position: absolute;
+     right: 0px;
+     z-index: 0;
+      content: url('./assets/fingerprint2.svg');
+        
+      }
+    }
+

@@ -1,0 +1,162 @@
+contact1{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    /* min-width: 1440px; */
+    gap: 124px;
+}
+
+.info p{ 
+    color: var(--Neutral-900);
+
+
+
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin: 0px;
+size:16px;
+}
+
+
+
+.info h2{ 
+    color: var(--Primary-600);
+    font-family: 'Lato' ,sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px; /* 150% */
+    margin: 0px ;
+}
+.info h3{ 
+    color: var(--Primary-700);
+    font-family: 'Lato',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    margin: 0px;
+}
+
+.topic{ 
+    display: flex;
+    margin: 28px 0px 16px 0px;
+}
+.social{
+    margin-top: 20px;
+}
+.socials img{
+    margin: 16px 16px 0px 0px;
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+}
+.Maps{
+    display: flex;
+    margin: 100px 0px 80px 0px;
+    justify-content: center;
+    width: 88%;
+
+}
+
+.leftSide{
+    border-radius: 16px 0px 0px 16px;
+    background: var(--Primary-600);
+    padding: 40px 32px 0px 32px;
+    width: 524px;
+}
+
+
+
+
+.leftSide h3{
+    color: var(--Secondary-100);
+    margin: 0px;
+font-family: 'Lato', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 32px; /* 133.333% */
+}
+
+.leftSide h2{
+    color: var(--Secondary-100);
+  
+    
+    /* Body/Body 2 */
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+.leftSide p{
+    color: var(--Secondary-100);
+
+
+/* Body/Body 1 */
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+@media (max-width:430px) {
+    contact1{
+        width:430px;
+    }
+    
+    .line{
+        width: 19.25rem;
+    }
+    .heading h2{
+        font-size: 2.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: 3.5rem; /* 140% */
+    }
+    .info{
+        flex-direction: column;
+        padding: 2.5rem 1rem 0rem 1rem;
+flex-direction: column;
+align-items: flex-start;
+    }
+    .Maps{
+        
+        width: 22.5rem;
+    padding: 4rem 1rem;
+    flex-direction: column;
+    align-items: flex-end;width: 22.5rem;
+    padding: 4rem 1rem;
+    flex-direction: column;
+    align-items: flex-end;
+    }
+    .rightSide{
+        width: 328px;
+        height: 496px;
+        border-radius: 0px 0px 16px 16px;
+    }
+    .rightSide img{
+        content: url("./assets/mobileMap.png");
+        border-radius: 0px 0px 16px 16px;
+    }
+    .leftSide{
+        width: 265px;
+        height: 352px;
+        border-radius: 16px 16px 0px 0px ;
+    }
+}

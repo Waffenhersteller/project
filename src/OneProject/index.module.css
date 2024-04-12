@@ -1,0 +1,266 @@
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 112px;
+}
+
+.header{
+    width: 100%;
+    
+    background-color: var(--Primary-100);
+    height: 96px;
+    display: flex;
+    
+    justify-content: center
+}
+
+.headerMain{
+    
+    max-width: 1440px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+.leftSideHeader{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.leftSideHeader p{
+    font-family: 'Lato',sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: var(--Primary-500);
+text-align: center;
+margin: 0px;
+}
+.leftSideHeader img{
+    fill:  #1D7A85;
+    
+    margin-right: 8px;
+}
+
+.topic{
+    max-width: 848px;
+}
+.topic h2{
+    
+font-family: 'Lato',sans-serif;
+font-size: 32px;
+font-weight: 800;
+line-height: 48px;
+text-align: left;
+
+    margin-bottom: 12px
+}
+.time, .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time p{
+    margin: 0px;
+font-family: 'Lato',sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #757575;
+text-align: center;
+gap: 10px;
+
+
+
+
+}
+.text{
+    max-width: 849px ;
+}
+.text p{
+    margin: 0px;
+    size: 20px;
+font-family: 'Lato',sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+color: var(--Neutral-900);
+
+
+}
+
+.content{
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   max-width: 848px;
+   max-height: 636px;
+   gap: 16px;
+   
+}
+
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 848px;
+}
+.title h3{
+    margin: 0px;
+    size: 24px;
+font-family: 'Lato',sans-serif;
+font-size: 16px;
+font-weight: 800;
+line-height: 32px;
+color: var(--Primary-600);
+}
+.buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.arrowleft, .arrowRight{
+    background-color: var(--Neutral-200);
+    width: 24px;
+height: 24px;
+padding: 12px;
+border-radius: 48px;
+gap: 10px;
+
+}
+
+.arrowleft img{
+    transform: rotate(180deg);
+}
+
+
+
+.photo{ 
+    background-color: var(--Primary-100);
+    width: 848px;
+    height: 636px;
+    border-radius:16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo img{
+    width: 100%;
+}
+
+.dotts{
+    display: flex;
+    gap: 10px;
+}
+.dott
+{
+    width: 8px;
+    height: 8px;
+    background-color: var(--Neutral-300);
+    border-radius: 8px;
+}
+
+.dott1
+{
+    width: 32px;
+    height: 8px;
+    background-color: var(--Primary-500);
+    border-radius: 8px;
+}
+
+
+.anouns2{
+    width: 46px;
+height:  24px;
+
+border: 1px solid #1D5A85;
+background: #DAEEFC;
+color:  #1D5A85;
+padding: 4px 12px;
+border-radius: 32px;
+
+    align-items: center;
+margin: 0px;
+font-family: 'Lato',sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+gap: 10px;
+}
+
+
+.projects, .events, .achievements, .SchoolLife, .announcement{
+    font-family: 'Lato',sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+padding: 4px 12px 4px 12px;
+border-radius: 32px ;
+}
+
+.announcement{
+    color: #BB391C;
+    background: #FCE9E8;
+    color: #BB391C;
+    border: 1px solid #BB391C;
+    }
+    .SchoolLife{
+    background: #D1EDDB;
+    color: #2B6A5C;
+    border: 1px solid #2B6A5C;
+    }
+    .achievements{
+    color: #661D85;
+    background: #EDDDFE;
+    border: 1px solid #661D85;
+    }
+    
+    .events{
+    color:#8D6600; 
+    background: #FFF1C7;
+    border: 1px solid #8D6600;
+    }
+    .projects{
+    color: #2B6A5C;
+    background: #DAEEFC;
+    border: 1px solid #1D5A85;
+    }
+
+    @media(max-width:430px){
+        .title{ 
+            width: 328px;
+        }
+        .photo{
+            width: 328px;
+        height: 248px;
+            }
+            .text{
+                width: 328px ;
+            }
+            .topic{ 
+                width: 328px;
+            }
+            .topic img{
+                content:url('../src/AllAssets/line328.svg') ;
+                
+            }
+            .headerMain{
+                width: 100%;
+            }
+            .leftSideHeader{
+                margin-left: 16px;
+            }
+            .fingerPrint{
+                content: url('./assets/fingerprint2.svg'); 
+            }
+    }

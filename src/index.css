@@ -1,0 +1,41 @@
+#root{ 
+    width: 100%;
+    height: 100%;
+
+    --Primary-100: #ECF4F5;
+    --Primary-200:#D9E9EB;
+    --Primary-300:#ACCFD3;
+    --Primary-400:#81B5BB;
+    --Primary-500:#1D7A85;
+    --Primary-600:#165C64;
+    --Primary-700:#204145;
+    
+    --Secondary-100:#FFC3A9;
+    --Secondary-200:#F79F79;
+ 
+    --Neutral-100: #F8F8F8;
+    --Neutral-200:#EEEEEE;
+    --Neutral-300:#D6D6D6;
+    --Neutral-400:#BABABA;
+    --Neutral-500:#9E9E9E;
+    --Neutral-600:#757575;
+    --Neutral-700:#525252;
+    --Neutral-800:#444444;
+    --Neutral-900:#1E1E1E;
+    
+
+
+
+
+
+    
+}
+body{ 
+    margin: 0px;
+    
+    
+}
+
+.szh-accordion{
+    gap: 16px;
+}

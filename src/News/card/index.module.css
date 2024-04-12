@@ -1,0 +1,177 @@
+.card{
+    height: 508px;
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    border-radius:  16px ;
+    border: 1px solid #BABABA;
+    
+}
+
+.card:hover {
+    border: 1px solid #1D7A85;
+    border-radius: 16px;
+box-shadow: 0px 0px 10px 0px #1D7A85B2;
+
+}
+.topSide img{
+    width: 416px;
+    border-radius: 16px 16px 0px 0px;
+}
+.card h3{
+    max-height: 64px;
+max-height: 64px;
+overflow: hidden;
+overflow-wrap: hidden;
+margin-bottom: 16px;
+    margin: 0px;
+    font-family: 'Lato',sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: left;
+    color:var(--Neutral-900);
+}
+.info{
+    flex-shrink: 1;
+}
+.bottomSideTop a{
+    text-decoration:none;
+    color: var(--Primary-500);
+}
+
+
+
+.bottomSide button a{
+    text-decoration:none;
+    color: var(--Primary-500);
+}
+.info p {
+    max-width: 368px;
+    max-height: 50px;
+font-family: 'Lato',sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: var(--Neutral-900);
+margin: 0px;
+overflow: hidden;
+overflow-wrap: hidden;
+}
+.bottomSideTop{
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    gap:16px;
+}
+.bottomSide{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px 8px 16px;
+    gap: 20px;
+    
+}
+.bottomSideClass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.bottomSideClass p{
+    
+margin: 0px;
+font-family: 'Lato',sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color:var(--Neutral-600);
+
+
+}
+.bottomSide button{
+    width: 368px;
+height:  40px;
+padding: 8px 16px 8px 16px;
+
+border-radius: 8px ;
+
+border: 1px solid #1D7A85;
+
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+color: var(--Primary-500);
+background-color: #FFFFFF;
+}
+.bottomSide button:hover{
+    
+    background: #ECF4F5;
+
+}
+.bottomSide button:focus{box-shadow: 0px 0px 5px 0px #1D7A85B2;}
+.bottomSide button:active{
+    border: 1px solid #204145;
+    background: #ECF4F5;
+    color: var(--Primary-700);
+
+}
+.projects, .events, .achievements, .SchoolLife, .announcement{
+    font-family: 'Lato',sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+padding: 4px 12px 4px 12px;
+border-radius: 32px ;
+}
+
+
+.announcement{
+color: #BB391C;
+background: #FCE9E8;
+color: #BB391C;
+border: 1px solid #BB391C;
+}
+.SchoolLife{
+background: #D1EDDB;
+color: #2B6A5C;
+border: 1px solid #2B6A5C;
+}
+.achievements{
+color: #661D85;
+background: #EDDDFE;
+border: 1px solid #661D85;
+}
+
+.events{
+color:#8D6600; 
+background: #FFF1C7;
+border: 1px solid #8D6600;
+}
+.projects{
+color: #2B6A5C;
+background: #DAEEFC;
+border: 1px solid #1D5A85;
+}
+
+
+@media (max-width:430px) {
+    .card{
+        width: 328px;
+        height: 450px;
+    }
+    .topSide img{
+        width: 328px;
+    }
+    .bottomSide button{
+        width: 280px;
+    }
+    /* .info p {
+        max-height: 74px;   
+    } */
+}
