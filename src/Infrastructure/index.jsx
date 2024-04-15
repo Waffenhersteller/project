@@ -8,7 +8,7 @@ import img4 from './assets/img4.png'
 import img5 from './assets/img5.png'
 function Infrastructure(){
     return(
-        <infrastructure>
+        <div className={Style.infrastructure}>
             <Heading massage="Інфраструктура ліцею"/>
 
             <div className="">
@@ -110,7 +110,7 @@ function Infrastructure(){
 
 
 
-        </infrastructure>
+        </div>
 
 
     );

@@ -16,7 +16,7 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 
 
     
-    function publikInfo(){
+    function PublikInfo(){
 
         const [plus1, setPlus1] = useState(true);
         const [plus2, setPlus2] = useState(true);
@@ -265,4 +265,4 @@ II семестр –з 17 січня по 08 червня 2022 р.
         </div>
     );
 }
-export default publikInfo
+export default PublikInfo

@@ -1,4 +1,4 @@
-footer{
+.footer{
   
   /* min-width: 1440px; */
   
@@ -189,7 +189,7 @@ text-decoration: underline;
 }
 }
 @media (max-width: 430px) {
-  footer{
+  .footer{
     max-width: 430px;
   }
   .topSidefooter{

@@ -13,7 +13,7 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 
 
     
-    function publikInfo(){
+    function PublikInfo(){
 
         const [plus1, setPlus1] = useState(true);
         const [plus2, setPlus2] = useState(true);
@@ -246,4 +246,4 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
         </div>
     );
 }
-export default publikInfo
+export default PublikInfo

@@ -5,9 +5,9 @@ import newTab from '../../src/AllAssets/newTab.svg'
 import img1 from './assets/img1.png'
 import img2 from './assets/img2.png'
 import Heading from '../Heading'
-function camps(){
+function Camps(){
     return(
-        <camps>
+        <div className={Style.camps}>
             <Heading massage='Табори'/>
             
         <div className={Style.firstBlock}>
@@ -98,9 +98,9 @@ function camps(){
                 <img src={img2} className={Style.mainImg} />
             </div>
             </div>
-        </camps>
+        </div>
     );
 }
 
 
-export default camps
+export default Camps

@@ -6,7 +6,7 @@ import Newtab from './assets/Newtab.svg'
 import img1 from './assets/image4.jpg'
 import img2 from './assets/image6.jpg'
 
-function meal(){
+function Meal(){
 return(
     <div className={Style.meal}>
         <Heading massage="Харчування"/>
@@ -58,4 +58,4 @@ return(
 }
 
 
-export default meal
+export default Meal

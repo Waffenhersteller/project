@@ -4,7 +4,7 @@ import line from '../../src/AllAssets/line.svg'
 import link from '../../src/AllAssets/link.svg'
 import Newtab from '../../src/AllAssets/newTab.svg'
 
-function shedule(){
+function Shedule(){
     const table1 = [{ lesson: "1 урок", time: "08:30 -  9:15", break1: "10 хв"},
                     {lesson: "2 урок", time: "09:25 - 10:10", break1: "10 хв"}, 
                     {lesson: "3 урок", time: "10:20 - 11:05", break1: "20 хв"}, 
@@ -21,7 +21,7 @@ const table2 = [
 
 
     return(
-        <shedule>
+        <div className={Style.shedule}>
         <Heading massage="Розклад занять"/>
 
         <div className={Style.first}>
@@ -121,9 +121,9 @@ const table2 = [
 
 
         
-        </shedule>
+        </div>
 
     );
 }
 
-export default shedule
+export default Shedule

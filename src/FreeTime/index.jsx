@@ -3,7 +3,7 @@ import Heading from "../Heading"
 import Vector from './assets/Vector.svg'
 import Facebook from './assets/Facebook.svg'
 import React from 'react';
-function freeTime(){
+function FreeTime(){
     const Free = <div className={Style.free}>Безкоштовно</div>
     const paid = <div className={Style.paid}>Платно</div>
 
@@ -181,7 +181,7 @@ function freeTime(){
       
 
     return(
-        <freeTime>
+        <div className={Style.freeTime}>
             <Heading massage="Дозвілля"/>
             <div>
               
@@ -229,8 +229,8 @@ function freeTime(){
             
 
                 
-        </freeTime>
+        </div>
     );
 }
 
-export default freeTime
+export default FreeTime

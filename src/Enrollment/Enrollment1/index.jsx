@@ -37,17 +37,17 @@ const list = <div className={Style.content}>
 const massage = <p className={Style.text}>Шановні батьки! Набір у перший клас наразі закритий. Анкета на вступ до ліцею буде доступна для заповнення з квітня 2024 року.</p>
 
 
-function enrollment1(){
+function Enrollment1(){
     return(
-        <enrollment1>
+        <div >
             <Heading massage='Набір у 1 клас'/>
 
             <div className={Style.conteiner}>
                 {Application}
             </div>
 
-        </enrollment1>
+        </div>
     );
 }
 
-export default enrollment1
+export default Enrollment1

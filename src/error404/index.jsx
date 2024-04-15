@@ -1,9 +1,9 @@
 import Style from './index.module.css'
 import { Link } from 'react-router-dom'
 import zeroone from './assets/404.svg'
-function errore(){
+function Errore(){
     return(
-        <errore>
+        <div>
             <div className={Style.content}> 
                 <img src={zeroone} ></img>
                 <h2>На жаль, сторінку не знайдено</h2>
@@ -15,7 +15,7 @@ function errore(){
 
 
 
-        </errore>
+        </div>
 
 
 
@@ -26,4 +26,4 @@ function errore(){
 
 
 
-export default errore
+export default Errore

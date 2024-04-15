@@ -11,7 +11,7 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 
        
 
-function vacancy(){
+function Vacancy(){
     const [plus1, setPlus1] = useState(true);
     const [plus2, setPlus2] = useState(true);
     const [plus3, setPlus3] = useState(true);
@@ -144,13 +144,13 @@ function vacancy(){
 
     let offers = true;
     return(
-        <vacancy>
+        <div className={Style.vacancy}>
             <Heading massage="Вакансії"/>
                 
             {/* <p>{vacansyNoInvite}</p> */}
             <div>{vacancy}</div>
-        </vacancy>
+        </div>
     );
 }
 
-export default vacancy
+export default Vacancy

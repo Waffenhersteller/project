@@ -30,9 +30,9 @@ import educationMinister from './assets/educationMinister.png'
 import sportMinister from './assets/sportMinister.png'
 import rays from './assets/Rays.svg'
 import judiceMinister from './assets/judiceMinister.png'
-function studentSelfGoverment(){
+function StudentSelfGoverment(){
     return(
-        <studentSelfGoverment>
+        <div>
             <Heading massage="Учнівське самоврядування"/>
         
         
@@ -275,11 +275,11 @@ function studentSelfGoverment(){
 
             </div>
 
-        </studentSelfGoverment>
+        </div>
     );
 }
 
 
 
 
-export default studentSelfGoverment
+export default StudentSelfGoverment

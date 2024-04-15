@@ -3,9 +3,9 @@ import Heading from "../Heading";
 import word1 from "./assets/Layer_5.svg"
 
 import download from "./assets/Download.svg"
-function bulling(){
+function Bulling(){
     return(
-        <bulling>
+        <div className={Style.bulling}>
             <Heading massage="Протидія булінгу"/>
             
             <div className={Style.block}>
@@ -38,7 +38,7 @@ function bulling(){
                 </div>
 
         
-        </bulling>
+        </div>
 
 
 
@@ -46,4 +46,4 @@ function bulling(){
 }
 
 
-export default bulling
+export default Bulling

@@ -4,9 +4,9 @@ import img1 from './assets/image2.png'
 import img2 from './assets/image3.png'
 
 
-function historyOfliceo(){
+function HistoryOfliceo(){
     return(
-        <historyOfliceo>
+        <div className={Style.historyOfliceo}>
             <Heading massage="Історія ліцею"/>
 
             <p style={{ marginTop: "30px"}}>Навчально-виховний комплекс «Школа-ліцей «Оріяна» м. Львова створений у 2007 році ухвалою Львівської міської ради 6 сесії 5-го скликання №1112 від 05 07.2007р. “Про реорганізацію закладів освіти м. Львова” шляхом реорганізації школи-ліцею «Оріяна».</p>
@@ -35,8 +35,8 @@ function historyOfliceo(){
 <p>2010 - Участь закладу у проекті «Енергоефективні школи» 2011, 2012 ІІ місце у міжнародному конкурсі «Енергія і середовище», Проводиться міський конкурс учнівських робіт «Екологічна оцінка навколишнього середовища західного регіону України».</p>
 <p>2013 - Укладена угода з Львівським інститутом банківської справи НБУ.</p>
         <img src={img2}  />
-        </historyOfliceo>
+        </div>
     );
 }
 
-export default historyOfliceo
+export default HistoryOfliceo

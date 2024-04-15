@@ -7,7 +7,7 @@ import Heading from '../Heading';
 import Arrow from '../../src/AllAssets/ArrowDown.svg'
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 
-function graduated() {
+function Graduated() {
 
 
 
@@ -174,7 +174,7 @@ function graduated() {
  
 
   return (
-    <graduated>
+    <div className={Style.graduated}>
       <Heading massage="Випускники" />
 
       
@@ -241,9 +241,9 @@ function graduated() {
           </div>
         </AccordionItem>
       </Accordion>
-    </graduated>
+    </div>
   );
 }
 
 
-export default graduated
+export default Graduated

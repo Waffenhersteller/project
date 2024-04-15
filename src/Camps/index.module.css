@@ -1,4 +1,4 @@
-camps{
+.camps{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,7 +119,7 @@ camps{
     h2{
         width: 360px;  
     }
-    .secondblock, camps{
+    .secondblock, .camps{
         align-items: flex-start
     }
     .block{

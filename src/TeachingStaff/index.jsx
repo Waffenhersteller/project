@@ -12,7 +12,7 @@ import img5 from './assets/DeputyDirectorOfEducationalWork.png'
 import img6 from './assets/DeputyDirectorOfEconomicWork.png'
 
 let id = 0
-function teachingStaff(){
+function TeachingStaff(){
 
 
     const positions = [{img:DirectorImage, name: 'Коропецька Ірина Богданівна', curentPosition:'Директор'},
@@ -56,7 +56,7 @@ function teachingStaff(){
     return(
 
 
-        <teachingStaff>
+        <div className={Style.teachingStaff}>
             <Heading massage="Педагогічний колектив"/>
 
             
@@ -149,8 +149,8 @@ function teachingStaff(){
 </div>
 
           
-        </teachingStaff>
+        </div>
     );
 }
 
-export default teachingStaff
+export default TeachingStaff

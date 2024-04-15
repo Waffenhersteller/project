@@ -3,7 +3,7 @@ import Style from './index.module.css'
 import Heading from '../Heading';
 import { Link } from 'react-router-dom'; 
 
-function projects(){
+function Projects(){
     const anouns = <div className={Style.uppreButton}><button>Анонси</button></div>;
   const allProjects = <div className={Style.uppreButton} id='2'><button>Всі проєкти</button></div>;
   const done = <div className={Style.uppreButton}><button>Завершені</button></div>;
@@ -70,5 +70,5 @@ function projects(){
 }
 
 
-export default projects
+export default Projects
 
