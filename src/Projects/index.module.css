@@ -7,7 +7,7 @@ margin-bottom: 112px;
 
 .uppreButton button{
     color: var(--Primary-500);
-    font-family: 'Lato',sans-serif;
+  
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -78,7 +78,7 @@ border-radius: 32px;
 
     align-items: center;
 margin: 0px;
-font-family: 'Lato',sans-serif;
+
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -132,7 +132,7 @@ gap: 16px;
 color: #1E1E1E;
 margin: 0px;
 overflow: visible;
-font-family: 'Lato',sans-serif ;
+
 font-size: 24px;
 font-weight: 800;
 line-height: 32px;
@@ -146,7 +146,7 @@ text-align: left;
     height: 128px;
     width: 584px;
     overflow: hidden;
-font-family: 'Lato',sans-serif;
+
 font-size: 20px;
 font-weight: 400;
 line-height: 32px;
@@ -167,7 +167,7 @@ border: 1px solid #1D7A85;
 padding: 8px 16px;
 
 background-color: #FFFFFF;
-font-family: 'Lato',sans-serif;
+
 font-size: 16px;
 font-weight: 700;
 line-height: 24px;
@@ -180,7 +180,7 @@ line-height: 24px;
 .upperContainerInf{
     color: #757575;
     
-font-family: 'Lato',sans-serif;
+
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;

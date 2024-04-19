@@ -38,7 +38,7 @@ grid-row-start: 4;
 }
 .purposeLeftSide h2{
     color: var(--Primary-600, #165C64);
-font-family: 'Lato',sans-serif;
+
 font-size: 32px;
 font-style: normal;
 font-weight: 800;
@@ -50,7 +50,7 @@ margin: 0px;
 .purposeLeftSide p{
     color: var(--Neutral-900, #1E1E1E);
 
-font-family: 'Lato',sans-serif;
+
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -89,7 +89,7 @@ margin-bottom: 112px;
 }
 .structure h2{
     color: var(--Primary-600, #165C64);
-    font-family: 'Lato',sans-serif;
+  
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
@@ -111,7 +111,7 @@ gap: 8px;
 .mainText{
     margin: 0px;
     color: var(--Neutral-900, #1E1E1E);
-font-family: 'Lato',sans-serif;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
@@ -121,7 +121,7 @@ line-height: 24px; /* 150% */
 .name{
     color: var(--Neutral-700, #525252);
 
-font-family: 'Lato',sans-serif;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -146,7 +146,7 @@ margin: 0px;
 }
 .appointementContent h2{
     color: var(--Primary-600, #165C64);
-font-family: 'Lato',sans-serif;
+
 font-size: 32px;
 font-style: normal;
 font-weight: 800;
@@ -155,7 +155,7 @@ margin: 0px;
 }
 .appointementContent li{
     color: var(--Neutral-900, #1E1E1E);
-font-family: 'Lato',sans-serif;
+
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -176,7 +176,7 @@ line-height: 32px; /* 160% */
 
 .teamDuty h2 {
     color: var(--Primary-600, #165C64);
-    font-family: 'Lato', sans-serif;
+
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
@@ -222,7 +222,7 @@ line-height: 32px; /* 160% */
 
 .boxContent h3 {
     color: var(--Secondary-100, #FFC3A9);
-    font-family: 'Lato', sans-serif;
+
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
@@ -276,7 +276,7 @@ line-height: 32px; /* 160% */
 
 .bottomContentTEXT h2{
     color: var(--Primary-600, #165C64);
-    font-family: 'Lato',sans-serif;
+
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
@@ -285,7 +285,7 @@ line-height: 32px; /* 160% */
 
 .bottomContentTEXT p{
     color: var(--Neutral-900, #1E1E1E);
-    font-family: 'Lato',sans-serif;
+ 
     font-size: 20px;
     font-style: normal;
     font-weight: 400;

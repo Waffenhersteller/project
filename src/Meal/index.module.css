@@ -6,7 +6,7 @@
 
 .meal p{
     color: var(--Neutral-900, #1E1E1E);
-font-family: 'Lato',sans-serif;
+
 font-size: 1.25rem;
 font-style: normal;
 font-weight: 400;
@@ -40,7 +40,7 @@ max-width: 53rem;
         margin: 0px;
         padding-left: 8px;
         color: var(--Neutral-800, #444);
-        font-family: 'Lato',sans-serif;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
