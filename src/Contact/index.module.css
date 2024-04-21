@@ -1,4 +1,4 @@
-contact1{
+.contact1{
     width: 100%;
     
     display: flex;
@@ -113,7 +113,7 @@ line-height: 24px; /* 150% */
 }
 
 @media (max-width:430px) {
-    contact1{
+    .contact1{
         width:430px;
     }
     

@@ -44,7 +44,7 @@ function Contact(){
 
 
     return(
-        <contact>
+        <div className={Style.contact}>
             <div className={Style.center}></div>
             <img src={fingerPrint} className={Style.fingerPrint}></img>
             <div className={Style.content}>
@@ -70,7 +70,7 @@ function Contact(){
 
                 <div className={Style.bottomSide}>
                 <div><p>Повідомлення</p>
-                <textarea placeholder="Напишіть тут, що вас цікавить" rows="4" minlength="30" maxlength="1000" width="568"></textarea>
+                <textarea placeholder="Напишіть тут, що вас цікавить" rows="4"  width="568"></textarea>
                
                 
                 </div>
@@ -90,7 +90,7 @@ function Contact(){
             </div>
 
 
-        </contact>
+        </div>
 
 
 

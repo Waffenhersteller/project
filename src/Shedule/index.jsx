@@ -36,7 +36,7 @@ const table2 = [
                     </div>
         {table1.map((val, key) => {
             return( 
-                <div className={Style.tables}>
+                <div className={Style.tables} >
                    
                 <div className={Style.table}><p>{val.lesson}</p></div>
                 <div className={Style.table1}><p>{val.time}</p></div>

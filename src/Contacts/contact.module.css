@@ -1,4 +1,4 @@
-contact{
+.contact{
     display: flex;
     width: 100%;
     min-height: 592px;
@@ -6,7 +6,7 @@ contact{
     justify-content: center
     
 }
-contact .fingerPrint{
+.contact .fingerPrint{
     width: 300.399px;
     height: 324.969px;
     float: left;
@@ -210,7 +210,7 @@ text-align: left;
     rotate: 45deg;
 }
 @media (max-width:430px) {
-    contact{
+    .contact{
         padding-top: 4rem;
     }
     .fingerPrint{

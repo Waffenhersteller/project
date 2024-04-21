@@ -25,7 +25,7 @@ import equality from './assets/equality.svg'
 import justice from './assets/justice.svg'
 
 import { Link, json } from 'react-router-dom';
-import React,{useState, useEffect } from "react"
+import React,{useState, useEffect} from "react"
 
 import Card from './../News/card/index.jsx'
 import jsonData from './../News/news.json';
@@ -34,6 +34,7 @@ import jsonData from './../News/news.json';
 
 function Main(){
    
+    
     let counter = 0
     
     const [pageIndex, setPageIndex] = useState(0)
@@ -48,12 +49,10 @@ function Main(){
     const startIndex = pageIndex * itemsPerPage
     const endIndex = Math.min(startIndex + itemsPerPage, jsonData.length)
 
-    // Function to handle next page navigation
     const nextPage = () => {
         setPageIndex(pageIndex + 1)
     }
 
-    // Function to handle previous page navigation
     const prevPage = () => {
         setPageIndex(pageIndex - 1)
     }
@@ -84,6 +83,8 @@ function Main(){
                             <div id='rightButton' className={Style.arrowRight} onClick={nextPage}><img src={ArrowRight} alt="ArrowRight" /></div>
                         </div>
                     </div>
+
+
                     <img className={Style.line} src={line} alt="" />
                 </div>
 
@@ -108,21 +109,6 @@ function Main(){
                 </div>
                 <div className={Style.newsButton}><Link to="/News"><button >Всі новини</button></Link></div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             <div className={Style.value}>
                 <div className={Style.topValue}>

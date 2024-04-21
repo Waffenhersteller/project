@@ -6,11 +6,10 @@ import React,{ useState, lazy, Suspense} from "react";
 
 
 
-import Footer from "./Footer1/Footer.jsx"
+const Footer = lazy(()=> import("./Footer1/Footer.jsx"))
 import Header from "./Header/header.jsx"
 
 import Main from "./Main/Main.jsx"
-
 
 
 const Contact1 = lazy(()=> import("./Contact/contacts.jsx"))

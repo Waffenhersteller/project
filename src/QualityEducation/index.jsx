@@ -93,7 +93,7 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
     
     return(
         
-        <qualityEducation>
+        <div className={Style.qualityEducation }>
             <Heading massage="Забезпечення якості освіти"/>
 
 
@@ -174,7 +174,7 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
     
 
     </Accordion>
-        </qualityEducation>
+        </div>
     );
 }
 export default QualityEducation

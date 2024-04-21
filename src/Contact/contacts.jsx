@@ -18,7 +18,7 @@ import React, { useState, useEffect } from 'react';
 import Contact1 from "../Contacts/Contact";
 function Contact(){
     return(
-        <contact1>
+        <div className={Style.contact1}>
             <Heading massage="Контакти"/>
             
 
@@ -101,7 +101,7 @@ function Contact(){
 
 
 
-        </contact1>
+        </div>
 
     );
 }
