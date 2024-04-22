@@ -3,11 +3,11 @@ import Style from './index.module.css'
 
 
 
-import plus from './assets/plus.svg'
-import minus from './assets/minus.svg'
+import plus from '../AllAssets/plus.svg'
+import minus from '../AllAssets/minus.svg'
 import Heading from '../Heading';
-import link from './assets/link.svg'
-import newTab from './assets/Newtab.svg'
+import link from '../AllAssets/link.svg'
+import newTab from '../AllAssets/newtab.svg'
 
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 

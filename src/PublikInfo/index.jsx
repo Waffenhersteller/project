@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Style from './index.module.css'
 
-import download from './assets/download.svg'
-import docs from './assets/docs.svg'
+import download from '../AllAssets/Download.svg'
+import docs from '../AllAssets/Word.svg'
 import plus from '../../src/AllAssets/plus.svg'
 import minus from '../../src/AllAssets/minus.svg'
 import Heading from '../Heading';

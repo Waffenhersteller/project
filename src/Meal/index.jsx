@@ -1,8 +1,8 @@
 import Style from './index.module.css'
 import Heading from '../Heading'
 
-import link from './assets/Link.svg'
-import Newtab from './assets/Newtab.svg'
+import link from '../AllAssets/link.svg'
+import Newtab from '../AllAssets/newtab.svg'
 import img1 from './assets/image4.jpg'
 import img2 from './assets/image6.jpg'
 

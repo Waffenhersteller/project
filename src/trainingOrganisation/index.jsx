@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import Style from './index.module.css'
 
-import download from './assets/download.svg'
-import word from './assets/word.svg'
-import plus from './assets/plus.svg'
+import download from '../AllAssets/Download.svg'
+import word from '../AllAssets/Word.svg'
+
+import plus from '../AllAssets/plus.svg'
+
 import minus from './assets/minus.svg'
 import Heading from '../Heading';
-import link from './assets/link.svg'
-import newTab from './assets/Newtab.svg'
-import pdf from './assets/PDF.svg'
+import link from '../AllAssets/Link.svg'
+import newTab from '../AllAssets/newtab.svg'
+import pdf from '../AllAssets/PDF.svg'
+
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 
 
