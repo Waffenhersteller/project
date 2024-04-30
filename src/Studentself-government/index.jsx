@@ -7,29 +7,29 @@ import Facebook from "../AllAssets/FacebookIcon.svg"
 
 
 import line from "./assets/line.svg"
-import bottomImg from './assets/image6.png'
+import bottomImg from './assets/image6.webp'
 import fingerPrtinStroke from './assets/fingerprint1.svg'
 import fingerPrint from "./assets/fingerPrint.svg"
 import first from './assets/first.svg'
-import middle from './assets/image7.png'
-import topimg from './assets/image5.png'
+import middle from './assets/image7.webp'
+import topimg from './assets/image5.webp'
 import second from './assets/second.svg'
 import third from './assets/third.svg'
 import fourth from './assets/fourth.svg'
 
 import arrowline from './assets/arrowline.svg'
 
-import president from './assets/president.png'
+import president from './assets/president.webp'
 
-import primeMinister from './assets/primeMinister.png'
+import primeMinister from './assets/primeMinister.webp'
 import line2 from './assets/line2.svg'
-import informationMinister from './assets/informationMinister.png'
-import cultureMinister from './assets/cultureMinister.png'
-import ecologyMinister from './assets/ecologyMinister.png'
-import educationMinister from './assets/educationMinister.png'
-import sportMinister from './assets/sportMinister.png'
+import informationMinister from './assets/informationMinister.webp'
+import cultureMinister from './assets/cultureMinister.webp'
+import ecologyMinister from './assets/ecologyMinister.webp'
+import educationMinister from './assets/educationMinister.webp'
+import sportMinister from './assets/sportMinister.webp'
 import rays from './assets/Rays.svg'
-import judiceMinister from './assets/judiceMinister.png'
+import judiceMinister from './assets/judiceMinister.webp'
 function StudentSelfGoverment(){
     return(
         <div>

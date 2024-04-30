@@ -1,8 +1,7 @@
 import Style from './index.module.css'
 import Heading from '../Heading'
 
-import link from '../AllAssets/link.svg'
-import Newtab from '../AllAssets/newtab.svg'
+import Externalink from '../UI/Externalink'
 import img1 from './assets/image4.jpg'
 import img2 from './assets/image6.jpg'
 
@@ -17,31 +16,13 @@ return(
 <li>задоволення фізіологічних потреб організму у визначеній кількості енергії і співвідношенні у харчових речовинах;</li>
 <li>дотримання оптимального режиму харчування, тобто фізіологічно обґрунтованого розподілу кількості споживаної їжі протягом дня.</li></ul>
 Їжа у школі має бути не тільки корисною, але й смачною і різноманітною. Тому в Україні розгорнуто реформу шкільного харчування. Новацій має зазнати не тільки склад шкільного меню та рецептури приготування, але й форми організації харчування, рекомендації до обладнання харчоблоків та роботи з постачальниками, а також підходи у формуванні культури здорового харчування у школярів, як наскрізної компетенції Нової української школи.</p>
-<div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Примірне меню для харчування учнів в осінній період</p>
 
-                        </div>
-                        <img src={Newtab}/>
-        </div>
-        <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Примірне меню для харчування учнів у зимово-весняний період</p>
+<Externalink  width={'818px'} type={1} content={"Примірне меню для харчування учнів в осінній період"} />
 
-                        </div>
-                        <img src={Newtab}/>
-        </div>
-
-        <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Результати проведеного опитування щодо якості харчування в ліцеї “Оріяна” ЛМР</p>
-
-                        </div>
-                        <img src={Newtab}/>
-        </div>
+        <Externalink width={'818px'} type={1} content={"Примірне меню для харчування учнів у зимово-весняний період"}/>
+       
+        <Externalink width={'818px'} type={1} content={"Результати проведеного опитування щодо якості харчування в ліцеї “Оріяна” ЛМР"}/>
+        
 
         <div className={Style.imeges}>
 

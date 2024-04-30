@@ -6,9 +6,7 @@ import Style from './index.module.css'
 import plus from '../AllAssets/plus.svg'
 import minus from '../AllAssets/minus.svg'
 import Heading from '../Heading';
-import link from '../AllAssets/link.svg'
-import newTab from '../AllAssets/newtab.svg'
-
+import Externalink from '../UI/Externalink';
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 
 
@@ -102,14 +100,8 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 
       <AccordionItem   header={title111} onClick={back} style={{ marginTop: '16px' }} >
       <div className={Style.item}>
-      <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Атестація - ДСЯОУ</p>
 
-                        </div>
-                        <img src={newTab}/>
-                </div>
+      <Externalink type={1} content={"Атестація - ДСЯОУ"}/> 
 
                     </div>
       </AccordionItem>
@@ -121,14 +113,8 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
       <p className={Style.main}>Сертифікація педагогічних працівників — це зовнішнє оцінювання професійних компетентностей педагогічного працівника, зокрема з педагогіки та психології, практичних вмінь застосування сучасних методів і технологій навчання.
 <br></br><br></br>
 Сертифікація педагогічного працівника відбувається на добровільних засадах виключно за його ініціативою.</p>
-                <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Орієнтовні вимоги до контролю та оцінювання навчальних досягнень учнів</p>
-
-                        </div>
-                        <img src={newTab}/>
-                </div>
+<Externalink type={1} content={"Орієнтовні вимоги до контролю та оцінювання навчальних досягнень учнів"}/> 
+                
                     </div>
       </AccordionItem>
 
@@ -136,15 +122,8 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
       <div className={Style.item} >
             <p className={Style.main}>Інституційний аудит – це зовнішнє оцінювання роботи школи, під час якого незалежні експерти оцінюють освітні і управлінські процеси та дотримання закладом освіти вимог законодавства. Аудит є новою для України процедурою вивчення освітньої діяльності школи, яка прийшла на зміну державній атестації шкіл.</p>
             
-
-            <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Звіт за результатами інституційних аудитів 2022 р. - ДСЯОУ</p>
-
-                        </div>
-                        <img src={newTab}/>
-                </div>
+            <Externalink type={1} content={"Звіт за результатами інституційних аудитів 2022 р. - ДСЯОУ"}/> 
+           
       </div>
       </AccordionItem>
     
@@ -160,14 +139,8 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 <li>механізми забезпечення академічної доброчесності;</li>
 <li>сучасну інформаційну систему управління школою.</li></ul>
 Важливо також розвивати партнерство учнів і вчителів, забезпечувати рівність і протидіяти булінгу (цькуванню), допомагати учням реалізувати індивідуальну освітню траєкторію, створювати для вчителів умови для професійного зростання.</p>
-                <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Методичні рекомендації до побудови внутрішньої системи забезпечення якості освіти</p>
-
-                        </div>
-                        <img src={newTab}/>
-                </div>
+<Externalink type={1} content={"Методичні рекомендації до побудови внутрішньої системи забезпечення якості освіти"}/> 
+                
       </div>
       </AccordionItem>
     

@@ -1,7 +1,7 @@
 import Style from './index.module.css'
 import Heading from '../Heading'
-import img1 from './assets/image2.png'
-import img2 from './assets/image3.png'
+import img1 from './assets/image2.webp'
+import img2 from './assets/image3.webp'
 
 
 function HistoryOfliceo(){

@@ -1,8 +1,10 @@
 import Style from './index.module.css'
 import Heading from '../Heading'
 import line from '../../src/AllAssets/line.svg'
-import link from '../../src/AllAssets/link.svg'
-import Newtab from '../../src/AllAssets/newTab.svg'
+
+import Externalink from '../UI/Externalink'
+
+
 
 function Shedule(){
     const table1 = [{ lesson: "1 урок", time: "08:30 -  9:15", break1: "10 хв"},
@@ -48,14 +50,9 @@ const table2 = [
             )
         })}
         
-        <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Розклад уроків для початкової школи</p>
-
-                        </div>
-                        <img src={Newtab}/>
-        </div>
+        <div style={{ marginTop: '16px' }}>
+  <Externalink type={1} content={"Розклад уроків для початкової школи"} />
+</div>
         </div>
 
         <div className={Style.first}>
@@ -82,14 +79,11 @@ const table2 = [
             )
         })}
         
-        <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Розклад уроків для старшої школи</p>
+        
 
-                        </div>
-                        <img src={Newtab}/>
-        </div>
+        <div style={{ marginTop: '16px' }}>
+  <Externalink type={1} content={"Розклад уроків для старшої школи"} />
+</div>
         </div>
 
 

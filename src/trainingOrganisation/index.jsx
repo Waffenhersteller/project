@@ -1,20 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import Style from './index.module.css'
 
-import download from '../AllAssets/Download.svg'
-import word from '../AllAssets/Word.svg'
 
 import plus from '../AllAssets/plus.svg'
 
 import minus from './assets/minus.svg'
 import Heading from '../Heading';
-import link from '../AllAssets/Link.svg'
-import newTab from '../AllAssets/newtab.svg'
-import pdf from '../AllAssets/PDF.svg'
 
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 
-
+import Externalink from '../UI/Externalink';
 
 
 
@@ -99,6 +94,10 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
             </div>
           );
     
+
+
+         let name = "Освітня програма школи ІІ-ІІІ ступеня ліцею «Оріяна» ЛМР на 2023-2024 навчальний \n рік"
+
     return(
         
         <div className={Style.publikInfo}>
@@ -150,58 +149,28 @@ II семестр –з 17 січня по 08 червня 2022 р.
 
       <AccordionItem   header={title222} onClick={back} style={{ marginTop: '16px' }} >
       <div className={Style.item}>
-      <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Критерії оцінювання навчальних досягнень учнів початкової школи</p>
 
-                        </div>
-                        <img src={newTab}/>
-                </div>
-
-
-                <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Критерії оцінювання навчальних досягнень учнів основної і старшої школи</p>
-
-                        </div>
-                        <img src={newTab}/>
-                </div>
-
-                <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Орієнтовні вимоги до контролю та оцінювання навчальних досягнень учнів</p>
-
-                        </div>
-                        <img src={newTab}/>
-                </div>
-                    </div>
+        <Externalink type={1} content={"Критерії оцінювання навчальних досягнень учнів початкової школи"}/>
+        <Externalink type={1} content={"Критерії оцінювання навчальних досягнень учнів основної і старшої школи"}/>
+        <Externalink type={1} content={"Орієнтовні вимоги до контролю та оцінювання навчальних досягнень учнів"}/>
+                
+        </div>
       </AccordionItem>
 
       <AccordionItem  header={title333} onClick={back}  style={{ marginTop: '16px' }}>
       <div className={Style.item} >
             <p className={Style.text1}>Результати вибору електронних версій оригінал-макетів підручників для 1 класу закладів загальної середньої освіти, поданих на конкурсний відбір підручників для здобувачів повної загальної середньої освіти і педагогічних працівників. 22.02.2023.</p>
-            <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={word}/>
-                            <p>Протокол вибору підручників для 1 класів</p>
-
-                        </div>
-                        <img src={download}/>
-                </div>
+            
+            
+            <Externalink type={2} content={"Протокол вибору підручників для 1 класів"}/>
+            
             <p className={Style.text1}>Результати вибору електронних версій оригінал-макетів підручників для 5 класу закладів загальної середньої освіти, поданих на конкурсний відбір підручників для здобувачів повної загальної середньої освіти і педагогічних працівників. 27.05.2022.</p>
 
 
-            <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={pdf}/>
-                            <p>Вибір підручників для 5 класу НУШ</p>
+          
 
-                        </div>
-                        <img src={download}/>
-                </div>
+            <Externalink type={3} content={"Вибір підручників для 5 класу НУШ"}/>
+
       </div>
       </AccordionItem>
     
@@ -209,54 +178,31 @@ II семестр –з 17 січня по 08 червня 2022 р.
 
     <AccordionItem  header={title444} onClick={back}  style={{ marginTop: '16px' }}>
       <div className={Style.item} >
-      <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Освітня програма школи ІІ-ІІІ ступеня ліцею «Оріяна» ЛМР на 2023-2024 навчальний<br></br> рік</p>
 
-                        </div>
-                        <img src={newTab}/>
-                </div>
-                <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Програма “Інтелект України”</p>
+      <Externalink type={1} content={name} />
+       <Externalink type={1} content={"Програма “Інтелект України”"}/>
+      
 
-                        </div>
-                        <img src={newTab}/>
-                </div>
+
+                        
       </div>
       </AccordionItem>
     
     <AccordionItem  header={title555} onClick={back} style={{ marginTop: '16px' }} >
       <div className={Style.item} >
-      <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={pdf}/>
-                            <p>Правила поведінки здобувачів освіти в ліцеї “Оріяна”</p>
-
-                        </div>
-                        <img src={download}/>
-                </div>
 
 
-                <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={pdf}/>
-                            <p>Правила поведінки в кафе-їдальні “Vydelka”</p>
 
-                        </div>
-                        <img src={download}/>
-                </div> 
+      <Externalink type={3} content={"Правила поведінки здобувачів освіти в ліцеї “Оріяна”"}/>
+      <Externalink type={3} content={"Правила поведінки в кафе-їдальні “Vydelka”"}/>
+      <Externalink type={3} content={"Статут учнівського самоврядування ліцею “Оріяна”"}/>
 
-                <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={pdf}/>
-                            <p>Статут учнівського самоврядування ліцею “Оріяна”</p>
+  
 
-                        </div>
-                        <img src={download}/>
-                </div>
+
+
+
+               
       </div>
       </AccordionItem>
 

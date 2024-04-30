@@ -1,9 +1,8 @@
 import Style from './index.module.css'
 import line from '../../src/AllAssets/line.svg'
-import link from '../../src/AllAssets/link.svg'
-import newTab from '../../src/AllAssets/newTab.svg'
-import img1 from './assets/img1.png'
-import img2 from './assets/img2.png'
+import Externalink from '../UI/Externalink'
+import img1 from './assets/img1.webp'
+import img2 from './assets/img2.webp'
 import Heading from '../Heading'
 function Camps(){
     return(
@@ -34,22 +33,10 @@ function Camps(){
 <li>супровід координаторів, вчителів та тренерів.</li></ul>
 </div>
 <div className={Style.blocks}>
-<div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Реєстрація на табір у Фінляндії</p>
+    <Externalink type={1} content={"Реєстрація на табір у Фінляндії"}/>
+    <Externalink type={1} content={"Програма табору у Фінляндії"}/>
 
-                        </div>
-                        <img src={newTab}/>
-                </div>
-                <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Програма табору у Фінляндії</p>
-
-                        </div>
-                        <img src={newTab}/>
-                </div>
+                
                 </div>
             <img src={img1} className={Style.mainImg}/>
             </div>
@@ -78,22 +65,10 @@ function Camps(){
 </ul>
 </div>
 <div className={Style.blocks}>
-<div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Реєстрація на літній табір</p>
-                            <img src={newTab}/>
-                        </div>
-                        
-                </div>
-                <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={link}/>
-                            <p>Програма літнього табору</p>
-                            <img src={newTab}/>
-                        </div>
-                        
-                </div>
+<Externalink type={1} content={"Реєстрація на літній табір"}/>
+<Externalink type={1} content={"Програма літнього табору"}/>
+
+                
             
                 <img src={img2} className={Style.mainImg} />
             </div>

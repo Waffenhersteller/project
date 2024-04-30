@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Style from './index.module.css'
 
-import download from '../AllAssets/Download.svg'
-import docs from '../AllAssets/Word.svg'
+
 import plus from '../../src/AllAssets/plus.svg'
 import minus from '../../src/AllAssets/minus.svg'
 import Heading from '../Heading';
+
+import Externalink from '../UI/Externalink';
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 
 
@@ -68,7 +69,7 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
             </div>
           );
         
-    
+          
     return(
         
         <div className={Style.publikInfo}>
@@ -78,167 +79,53 @@ import { Accordion, AccordionItem } from '@szhsin/react-accordion';
     <Accordion allowMultiple>
       <AccordionItem   header={title111} onClick={back}  style={{ marginTop: '16px' }}>
       <div className={Style.item} >
+        
      <p className={Style.topic1}>Кошториси</p>
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Кошторис 0611031 на 2023 рік</p>
 
-                        </div>
-                        <img src={download}/>
-                    </div>
-
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Кошторис 0611021 на 2023 рік</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
+                    <Externalink type={2} content={"Кошторис 0611031 на 2023 рік"}/>
+                    
+                    <Externalink type={2} content={"Кошторис 0611021 на 2023 рік"}/>
+                    
                     <p className={Style.topic1}>Фінансові звіти</p>
+                    <Externalink type={2} content={"Звіт про фінансові результати за І квартал 2023 року"}/>
+                    
 
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Звіт про фінансові результати за І квартал 2023 року</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Баланс на 1 квітня 2023 рік</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
-
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Баланс на 1 січня 2023 рік</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
+                    <Externalink type={2} content={"Баланс на 1 квітня 2023 рік"}/>
+                    
+                    <Externalink type={2} content={"Баланс на 1 січня 2023 рік"}/>
+                    
                     <p className={Style.topic1}>Публічні закупівлі</p>
 
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Теплопостачання на 2023 рік</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
-
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Послуги з організації шкільного харчування на 2023 рік</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
-
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Електрична енергія з постачанням та передачею</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
-
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Послуги з організації шкільного харчування</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
+                    <Externalink type={2} content={"Теплопостачання на 2023 рік"}/>
+                    
+                    <Externalink type={2} content={"Послуги з організації шкільного харчування на 2023 рік"}/>
+                    
+                    <Externalink type={2} content={"Електрична енергія з постачанням та передачею"}/>
+                    
+                    <Externalink type={2} content={"Послуги з організації шкільного харчування"}/>
+                
                     </div>
       </AccordionItem>
 
       <AccordionItem   header={title222} onClick={back} style={{ marginTop: '16px' }} >
       <div className={Style.item}>
-        
-                <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Звіт директорки І. Коропецької за 2022 рік</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
-
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Звіт директора про роботу закладу у 2019-2020 н.р.</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
-
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Звіт учнівського самоврядування за 2019-2020 н.р.</p>
-
-                        </div>
-                        <img src={download}/>
-
+                    <Externalink type={2} content={"Звіт директорки І. Коропецької за 2022 рік"}/>
+                
+                    <Externalink type={2} content={"Звіт директора про роботу закладу у 2019-2020 н.р."}/>
                     
-
-                    </div>
+                    <Externalink type={2} content={"Звіт учнівського самоврядування за 2019-2020 н.р."}/>
+                   
                     </div>
       </AccordionItem>
 
       <AccordionItem  header={title333} onClick={back}  style={{ marginTop: '16px' }}>
       <div className={Style.item} >
-                <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Статут ліцею “Оріяна”</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
-
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>Колективний договір між адміністрацією та профспілковими комітетами ліцею <br></br>“Оріяна” на 2018 – 2020 роки</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
-
-                    <div className={Style.block}>
-                        <div className={Style.leftSide}>
-                            <img src={docs}/>
-                            <p>План роботи ліцею “Оріяна” на 2019-2020 роки</p>
-
-                        </div>
-                        <img src={download}/>
-
-                    </div>
+      <Externalink type={2} content={"Статут ліцею “Оріяна”"}/>
+                
+                    <Externalink type={2} content={"Колективний договір між адміністрацією та профспілковими комітетами ліцею “Оріяна” на 2018 – 2020 роки"}/>
+                    
+                    <Externalink type={2} content={"План роботи ліцею “Оріяна” на 2019-2020 роки"}/>
+                    
                 </div>
       </AccordionItem>
     </Accordion>

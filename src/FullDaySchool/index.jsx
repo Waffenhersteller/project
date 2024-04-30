@@ -1,7 +1,7 @@
 import Style from './index.module.css'
 import Heading from '../Heading'
-import img1 from './assets/image4.jpg'
-import img2 from './assets/image5.png'
+import img1 from './assets/image4.webp'
+import img2 from './assets/image5.webp'
 
 function FullTimeSchool(){
     return(
